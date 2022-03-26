@@ -16,7 +16,8 @@ pipeline {
         REGISTRY = 'docker.io'
         DOCKERHUB_NAMESPACE = 'nemophillist'
         GITHUB_ACCOUNT = 'SM2258XT'
-        APP_NAME = 'SonarQube'
+        APP_NAME = 'devops-java-sample'
+        SONAR_CREDENTIAL_ID = 'SonarQube'
     }
 
     stages {
