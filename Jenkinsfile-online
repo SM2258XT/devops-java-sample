@@ -44,7 +44,7 @@ pipeline {
                 }
               }
               timeout(time: 1,unit: 'HOURS') {
-                waitForQualityGate abortPipline: true
+                waitForQualityGate abortPipeline: true
               }
             }
           }
